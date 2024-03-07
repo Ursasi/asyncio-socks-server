@@ -62,6 +62,10 @@ You can also list other options in the config file instead of the command：
   "ACCESS_LOG": true,
   "DEBUG": true,
   "STRICT": true,
+  "NETWORKS": [
+    "10.10.10.0/24",
+    "10.10.11.1"
+  ],
   "USERS": {
     "username1": "password1",
     "username2": "password2",
